@@ -4,7 +4,9 @@
   "description": "App nerdzao nodeJs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "dependencies": {
     "express": "^4.16.3",
-    "mongodb": "^3.1.1"
+    "mongodb": "^3.1.1",
+    "nodemon": "^1.18.3"
   }
 }
